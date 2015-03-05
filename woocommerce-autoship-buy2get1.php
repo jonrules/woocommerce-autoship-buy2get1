@@ -12,7 +12,7 @@ License: Single-site
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 if ( is_plugin_active( 'woocommerce-autoship/woocommerce-autoship.php' ) ) {
 	
-	define( 'WC_AUTOSHIP_BUY2GET1_SKU', 'TRIGO-90C' );
+	define( 'WC_AUTOSHIP_BUY2GET1_SKU', 'TRIGO-MAX-90' );
 	define( 'WC_AUTOSHIP_BUY2GET1_CODE', 'buy2get1' );
 	
 	function wc_autoship_buy2get1_install() {
